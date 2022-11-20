@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Brackets",
   "main": "test.js",
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  },
   "scripts": {
     "test": "mocha test.js"
   },
@@ -16,7 +20,7 @@
     "url": "https://github.com/yankouskia/additional_5/issues"
   },
   "devDependencies": {
-    "mocha": "^3.2.0"
+    "mocha": "^10.1.0"
   },
   "homepage": "https://github.com/yankouskia/additional_5#readme"
 }
